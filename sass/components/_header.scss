@@ -1,0 +1,51 @@
+.header{
+padding-top: 44px;
+
+}
+
+.header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list{
+display: flex;
+gap: 30px;
+}
+.menu-link{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: var(--buttons-primary);
+
+&:hover,
+&:focus{
+    color: var(--buttons-primary);
+}
+}
+
+.header-boxs{
+    margin-left: 40px;
+}
+
+.header-enter{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: var(--text-primary);
+border: none;
+background-color: transparent;
+cursor: pointer;
+}
+.header-register{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: var(--inputs-light);
+border-radius: 5px;
+padding: 15px 30px;
+border: none;
+display: flex;
+justify-content: center;
+}
